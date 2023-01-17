@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'MyDockerConnection'
-        repository: 'kraza73/currency-exchange-devops'
+        repository: 'kashifraza/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
